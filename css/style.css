@@ -6,7 +6,7 @@ html{scroll-behavior:smooth}
 body{font-family:Inter,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.65}
 a{text-decoration:none;color:inherit}
 header{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;backdrop-filter:blur(10px)}
-.logo{font-family:Montserrat,sans-serif;font-size:1.25rem;font-weight:800;color:var(--navy);white-space:nowrap}
+.logo{font-family:Montserrat,sans-serif;font-size:1.25rem;font-weight:800;color:var(--navy);white-space:nowrap}.logo a{color:var(--navy)}.logo a:hover{color:var(--blue)}
 nav{display:flex;gap:28px;align-items:center}
 nav a{font-weight:600;color:#43576a;font-size:.94rem;transition:.2s}
 nav a:hover{color:var(--blue)}
@@ -53,6 +53,8 @@ nav a:hover{color:var(--blue)}
 .contact-intro{max-width:800px;margin:0 auto 35px;text-align:center}
 .contact-intro h2{margin-bottom:12px}
 .contact-intro p{color:var(--muted)}
+.contact-callout{margin:25px auto 0;padding:24px;border:1px solid var(--line);border-radius:14px;background:var(--light);max-width:520px;text-align:center}
+.contact-callout h3{color:var(--navy);margin-bottom:6px}.contact-callout p{margin-bottom:18px}
 .quote-form{max-width:900px;margin:auto;padding:35px;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
 .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .form-field,.quote-form>button{margin-top:20px}
